@@ -9,3 +9,13 @@
   font: 12px "Lucida Grande", Helvetica, Arial, sans-serif;
   color: #666;
 }
+
+/* Ensure 3 columns grid layout */
+.ui.three.column.grid > .column {
+  width: 33.33333% !important;
+}
+
+/* Ensure cards have consistent height and spacing */
+.ui.card {
+  margin-bottom: 1em;
+}
